@@ -32,7 +32,7 @@ async def _(event):
 
     input_str = event.pattern_match.group(1)
 
-    if input_str == "/cull":
+    if input_str == "call":
 
         await event.edit(input_str)
 
@@ -41,13 +41,13 @@ async def _(event):
             "`Connecting To Telegram Headquarters...`",
             "`Call Connected.`",
             "`Telegram: Hello This is Telegram HQ. Who is this?`",
-            "`Me: Yo this is` @arnab431 ,`Please Connect me to Pavel Durov Shukla`",
+            "`Me: Yo this is` @DarKStaR2001 ,`Please Connect me to Pavel Durov Shukla`",
             "`User Authorised.`",
             "`Calling Pavel Durov Shukla (@durov) At +916969696969`",
             "`Private  Call Connected...`",
             "`Me: Hello Sir, Please Ban This Telegram Account.`",    
             "`Durov: May I Know Who Is This?`",
-            "`Me: Yo Brah, I Am` @arnab431",
+            "`Me: Yo Brah, I Am` @DarKStaR2001",
             "`Durov: OMG!!! I Am FAN Of You Sir...\nI'll Make Sure That Guy Account Will Get Blocked Within 24Hrs.`",
             "`Me: Thanks, See You Later Brah.`",
             "`Durov: Please Don't Thank Sir, Telegram Is Your's. Just Gimme A Call When You Become Free.`",
