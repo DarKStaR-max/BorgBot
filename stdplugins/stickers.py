@@ -46,8 +46,8 @@ async def _(event):
         return
     me = borg.me
     userid = event.from_id
-    packname = f"@arnab431's Masterpiece"
-    packshortname = f"Uni_Borg_604698482"  # format: Uni_Borg_userid
+    packname = f"@DarkStaR2001's Masterpiece"
+    packshortname = f"Darkstar_{userid}"  # format: Uni_Borg_userid
 
     await event.edit("Grabbing Sketch Brush & Painting this Picture...")
 
@@ -75,7 +75,7 @@ async def _(event):
                         mime_type='image/png',
                         attributes=[
                             DocumentAttributeFilename(
-                                "@UniBorg_Sticker.png"
+                                "Sticker.png"
                             )
                         ]
                     ),
@@ -99,7 +99,7 @@ async def _(event):
                         mime_type='image/png',
                         attributes=[
                             DocumentAttributeFilename(
-                                "@UniBorg_Sticker.png"
+                                "Sticker.png"
                             )
                         ]
                     ),
@@ -110,7 +110,7 @@ async def _(event):
                 await silently_send_message(bot_conv, sticker_emoji)
                 await silently_send_message(bot_conv, "/done")
 
-    await event.edit(f"Painting Done!")
+    await event.edit(f"Painting Done [🔥](t.me/addstickers/{packshortname})")
 
 
 @borg.on(admin_cmd("packinfo"))
